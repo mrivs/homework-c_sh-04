@@ -13,10 +13,10 @@
 
 
 int N = PrintAndGetValue("Введите число");
-Console.WriteLine(Summ(N));
+Console.WriteLine(SumNumbers(N));
 
 
-int Summ(int N)
+int SumNumbers(int N)
 {
     int res = 0;
     for (int i = 1; i <= LengthInt(N); i++)
